@@ -1,4 +1,30 @@
 .card {
-    width: 20rem; 
-    height: 30rem;
+    max-width: 20rem; 
+}
+
+.text-blue {
+    color: blue;
+}
+
+.card-text.collapse {
+    height: 3rem;
+    display: block !important;
+    overflow: hidden;
+}
+
+.card-text.collapse.show {
+    height: auto;
+}
+
+.card-footer {
+    width: 100%;
+}
+
+.card-img-top {
+    height: 10rem;
+}
+
+.btn-readmore {
+    font-size: 14px !important;
+    font-weight: bold !important;
 }
