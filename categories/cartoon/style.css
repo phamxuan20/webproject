@@ -6,14 +6,10 @@
     color: blue;
 }
 
-.card-text.collapse {
+.card-text {
     height: 3rem;
     display: block !important;
     overflow: hidden;
-}
-
-.card-text.collapse.show {
-    height: auto;
 }
 
 .card-footer {
