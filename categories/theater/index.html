@@ -6,24 +6,23 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Page CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
 </head>
 
 
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: gray;">
-        <a class="navbar-brand" href="#">Review Phim</a>
+        <a class="navbar-brand" href="/home/index.html">Review Phim</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
-
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/home/index.html">Trang chủ <span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -31,71 +30,116 @@
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="/categories/cartoon/index.html">Phim Hoạt Hình</a>
                         <a class="dropdown-item" href="/categories/horror/index.html">Phim Kinh Dị</a>
-                        <a class="dropdown-item" href="/categories/horror/index.html">Phim Rạp VN</a>
-                        <a class="dropdown-item" href="/categories/horror/index.html">Phim Tình Cảm</a>
+                        <a class="dropdown-item disabled" href="">Phim Rạp VN</a>
+                        <a class="dropdown-item" href="/categories/romantic/index.html">Phim Tình Cảm</a>
                     </div>
                 </li>
-
             </ul>
-
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm kiếm</button>
             </form>
-
         </div>
     </nav>
 
     <div class="modal-body">
         <div class="container">
-            <div class="row d-flex justify-content-between align-items-start">
-                <div class="card mt-3" style="">
-                    <img class="card-img-top thumbnail h-50" src="/assets/images/mắt biết.jpg" alt=" card image cap ">
-                    <div class="card-body ">
-                        <h5 lass="card-title ">Mắt Biếc</h5>
-                        <p class="card-text ">Mắt Biếc là bộ phim chuyển thể từ tiểu thuyết nổi tiếng của nhà văn Nguyễn Nhật Ánh, kể về cô gái Hà Lan có đôi mắt đẹp vô ngần cùng chàng Ngạn si tình ở làng Đo Đo. Nguồn : https://bloganchoi.com/top-15-phim-chieu-rap-viet-nam-hay-co-doanh-thu-cao-nhat-tu-truoc-den-nay/
-                        </p>
-                        <a href="# " class="btn btn-primary ">Xem Thêm</a>
+            <div class="row row-cols-1 row-cols-md-3">
+
+                <div class="col mb-4">
+                    <div class="card mt-3" style="">
+                        <img class="card-img-top thumbnail" src="/assets/images/mắt biết.jpg"
+                            alt=" card image cap ">
+                        <div class="card-body ">
+                            <h5 lass="card-title ">Mắt Biếc</h5>
+                            <p class="card-text ">Mắt Biếc là bộ phim chuyển thể từ tiểu thuyết nổi tiếng của nhà văn
+                                Nguyễn Nhật Ánh, kể về cô gái Hà Lan có đôi mắt đẹp vô ngần cùng chàng Ngạn si tình ở
+                                làng Đo Đo. Nguồn :
+                                https://bloganchoi.com/top-15-phim-chieu-rap-viet-nam-hay-co-doanh-thu-cao-nhat-tu-truoc-den-nay/
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="# " class="btn btn-primary ">Xem Thêm</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card mt-3 ">
-                    <img class="card-img-top thumbnail h-50 " src="/assets/images/emlabanoicuaanh.jpeg" alt="Card image cap ">
-                    <div class="card-body ">
-                        <h5 class="card-title ">Em Là Bà Nội Của Anh (2015) </h5>
-                        <p class="card-text ">'Em là bà nội của anh' - phim hài cảm động về tuổi thanh xuân Phim có chi phí thực hiện 1,1 triệu USD của đạo diễn Phan Gia Nhật Linh khiến khán giả khóc, cười khi kể về mối quan hệ cảm động trong gia đình nhiều thế hệ.</p>
-                        <a href="# " class="btn btn-primary ">Xem thêm</a>
+                <div class="col mb-4">
+                    <div class="card mt-3 " style="">
+                        <img class="card-img-top thumbnail " src="/assets/images/emlabanoicuaanh.jpeg"
+                            alt="Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Em Là Bà Nội Của Anh (2015) </h5>
+                            <p class="card-text ">'Em là bà nội của anh' - phim hài cảm động về tuổi thanh xuân Phim có
+                                chi
+                                phí thực hiện 1,1 triệu USD của đạo diễn Phan Gia Nhật Linh khiến khán giả khóc, cười
+                                khi kể
+                                về mối quan hệ cảm động trong gia đình nhiều thế hệ.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="# " class="btn btn-primary ">Xem thêm</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card mt-3 ">
-                    <img class="card-img-top thumbnail h-50 " src="/assets/images/haiphuong.jpg" alt="Card image cap ">
-                    <div class="card-body ">
-                        <h5 class="card-title ">Hai Phượng</h5>
-                        <p class="card-text ">Sau đúng một con giáp, điện ảnh Việt mới lại ghi dấu với một bộ phim đáng để trầm trồ, bàn luận. Riêng Ngô Thanh Vân, cô đã viết nên đỉnh cao mới cho sự nghiệp diễn xuất của mình.</p>
-                        <a href="# " class="btn btn-primary ">Xem Thêm</a>
+                <div class="col mb-4">
+                    <div class="card mt-3 ">
+                        <img class="card-img-top thumbnail " src="/assets/images/haiphuong.jpg"
+                            alt="Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Hai Phượng</h5>
+                            <p class="card-text ">Sau đúng một con giáp, điện ảnh Việt mới lại ghi dấu với một bộ phim
+                                đáng
+                                để
+                                trầm trồ, bàn luận. Riêng Ngô Thanh Vân, cô đã viết nên đỉnh cao mới cho sự nghiệp diễn
+                                xuất
+                                của
+                                mình.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="# " class="btn btn-primary ">Xem Thêm</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card mt-3 ">
-                    <img class="card-img-top thumbnail h-50 " src="/assets/images/18.jpg" alt="Card image cap ">
-                    <div class="card-body ">
-                        <h5 class="card-title ">Em Chưa 18</h5>
-                        <p class="card-text ">Được tung hô với mỹ từ “phim Việt xuất sắc nhất năm”, Em Chưa 18 hiện đang nhận được sự háo hức rất lớn từ khán giả nước nhà. Nhưng liệu danh xưng này có chính xác khi bộ phim chứa vô số hạt sạn trong lớp vỏ bọc sô cô la ngọt ngào?
+                <div class="col mb-4">
+                    <div class="card mt-3 " style="">
+                        <img class="card-img-top thumbnail " src="/assets/images/18.jpg" alt="Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Em Chưa 18</h5>
+                            <p class="card-text ">Được tung hô với mỹ từ “phim Việt xuất sắc nhất năm”, Em Chưa 18 hiện
+                                đang
+                                nhận
+                                được sự háo hức rất lớn từ khán giả nước nhà. Nhưng liệu danh xưng này có chính xác khi
+                                bộ phim
+                                chứa
+                                vô số hạt sạn trong lớp vỏ bọc sô cô la ngọt ngào?
 
-                        </p>
-                        <a href="# " class="btn btn-primary ">Xem Thêm</a>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="# " class="btn btn-primary ">Xem Thêm</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card mt-3 ">
-                    <img class="card-img-top thumbnail h-50 " src="/assets/images/cogai.jpeg" alt="Card image cap ">
-                    <div class="card-body ">
-                        <h5 class="card-title ">Cô Gái Đến Từ Hôm Qua</h5>
-                        <p class="card-text
-                        ">Cô Gái Đến Từ Hôm Qua đan xen giữa hai câu chuyện của quá khứ và hiện tại về cậu học trò tên Thư. Phim lấy bối cảnh năm 1997, tại một miền quê ở miền Nam Việt Nam, trong một ngôi trường trung học phổ thông. Anh chàng Thư "thơ thẩn
-                            " đang say mê cô bạn xinh đẹp cùng lớp tên Việt An. Thư muốn tìm cách tán tỉnh Việt An.</p>
-                        <a href="# " class="btn btn-primary ">Xem Thêm</a>
+                <div class="col mb-4">
+                    <div class="card mt-3 ">
+                        <img class="card-img-top thumbnail " src="/assets/images/cogai.jpeg" alt="Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Cô Gái Đến Từ Hôm Qua</h5>
+                            <p class="card-text
+                        ">Cô Gái Đến Từ Hôm Qua đan xen giữa hai câu chuyện của quá khứ và hiện tại về cậu học trò tên
+                                Thư. Phim lấy bối cảnh năm 1997, tại một miền quê ở miền Nam Việt Nam, trong một ngôi
+                                trường trung
+                                học phổ thông. Anh chàng Thư "thơ thẩn
+                                " đang say mê cô bạn xinh đẹp cùng lớp tên Việt An. Thư muốn tìm cách tán tỉnh Việt An.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+
+                            <a href="# " class="btn btn-primary ">Xem Thêm</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -105,9 +149,15 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+        crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
+        crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
+        crossorigin="anonymous "></script>
 </body>
 
 </html>
